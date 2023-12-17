@@ -1,0 +1,71 @@
+/* Resetting default body margins and padding */
+body {
+  margin: 0%;
+  padding: 0%;
+}
+
+/* Styling for the main application container */
+.App {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+}
+
+/* Styling for the title section */
+.TitleSection {
+  background-color: #ee1515;
+  width: 100%;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+}
+
+/* Styling for the input field in the title section */
+.TitleSection input {
+  width: 200px;
+  height: 40px;
+  border-radius: 10px;
+  border: 1px solid #222224;
+  font-size: 18px;
+  padding-left: 10px;
+}
+
+/* Styling for the button in the title section */
+.TitleSection button {
+  width: 180px;
+  height: 60px;
+  margin: 20px;
+  border-radius: 10px;
+  font-size: 18px;
+  padding-left: 10px;
+  border: none;
+  color: white;
+  background-color: #222224;
+}
+
+/* Styling for the button hover effect */
+.TitleSection button:hover {
+  cursor: pointer;
+}
+
+/* Styling for the display section */
+.DisplaySection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Styling for heading elements within the display section */
+.DisplaySection h4,
+.DisplaySection h3 {
+  margin: 5px;
+}
+
+/* Styling for images within the display section */
+.DisplaySection img {
+  width: 200px;
+}
